@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.orangedbtn {
+    background-color: #ff4500;
+    border: 0px;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.oranged {
+    color: #ff4500;
+
+}
+
+.headings1 {
+    font-weight: bold;
+}
+
+.navbar {
+    font-size: 18px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0px 30px;
+    padding-right: 30px;
+    height: 45px;
+    padding-right: 100px;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.navpart {
+    display: flex;
+    width: 51%;
+    justify-content: space-evenly;
+
+}
+
+.temp {
+
+    height: 10px;
+    width: 100vw;
+}
+
+#bars {
+    position: relative;
+    display: none;
+}
+
+/* section 2 */
+.herosec {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    font-weight: 30px;
+}
+
+.part1s2 {
+    width: 50%;
+    margin-top: 76px;
+}
+
+.imgs2 {
+    width: 50%;
+
+}
+
+.imgs2 img {
+    width: 100%;
+}
+
+.part1s2 div {
+    font-size: 58px;
+}
+
+.part1s2 p {
+    margin-top: 28px;
+    font-size: 23px;
+    color: grey;
+}
+
+.btns2 {
+    border: 0px;
+    background-color: orangered;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 31px;
+    font-size: 20px;
+}
+
+#heart {
+    border: 1px solid black;
+    font-size: 40px;
+}
+
+
+
+/* media query   */
+@media (max-width:1024px) {
+    .navpart {
+        display: none;
+    }
+
+    .herosec {
+        flex-direction: column;
+
+    }
+
+    .part1s2 {
+        width: 80%;
+        margin-top: 24px;
+    }
+
+    .imgs2 {
+        width: 70%;
+    }
+
+}
+
+/*  // laptop  */
+
+@media (max-width:768px) {
+    .orangedbtn {
+        display: none;
+    }
+
+    .navbar {
+        background: orangered;
+    }
+
+    #bars {
+        display: block;
+        right: 27px;
+        top: 8%;
+        font-size: 20px;
+    }
+
+    .navbar {
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+
+    .herosec {
+        padding-left: 50px;
+    }
+
+    .part1s2 div {
+        font-size: 39px;
+
+    }
+
+    .imgs2 {
+        width: 100%;
+    }
+
+    .btns2 {
+        border: 0px;
+        background-color: orangered;
+        padding: 12px 28px;
+        border-radius: 5px;
+        color: white;
+        margin-top: 32px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:480px) {
+    .navbar {
+        padding-left: 20px;
+    }
+
+    .herosec {
+        padding-left: 20px;
+    }
+
+    .part1s2 div {
+        font-size: 30px;
+    }
+
+    .btns2 {
+        font-size: 11px;
+        padding: 10px 26px;
+    }
+}
